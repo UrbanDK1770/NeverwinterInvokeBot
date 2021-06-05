@@ -14,17 +14,14 @@ This script currently supports the Russian game client.
 &nbsp;
 
 **You can download the installer here:**  
-https://github.com/BigRedBot/NeverwinterInvokeBot/raw/master/NeverwinterInvokeBot.exe
+http://gitlab.valhalla.local:41000/autoit3/neverwinterinvokebot/raw/master/NeverwinterInvokeBot.exe
 
 Find the latest list of changes here:  
-https://github.com/BigRedBot/NeverwinterInvokeBot/blob/master/CHANGELOG.md
+http://gitlab.valhalla.local:41000/autoit3/neverwinterinvokebot/blob/master/CHANGELOG.md
 
 Please post your questions or requests for this script here:  
-https://github.com/BigRedBot/NeverwinterInvokeBot/issues
+http://gitlab.valhalla.local:41000/autoit3/neverwinterinvokebot/issues
 
-Some anti-virus software may falsely detect this program as a virus.  
-It is a false positive. Please read here for more information about this:  
-https://github.com/BigRedBot/NeverwinterInvokeBot/issues/41
 
 &nbsp;
 
@@ -35,13 +32,3 @@ https://github.com/BigRedBot/NeverwinterInvokeBot/issues/41
 **Guild Bank RP Bot**: Removes refining stones from your Guild Bank tab that you have permissions to.
 
 **Fishing Bot**: Will fish for you.
-
-&nbsp;
-
-**If you have even five or ten dollars to spare, it would mean an awful lot. Thank you for your support.**
-
-Use this link to send donations of $12 or more:  
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&item_name=Neverwinter%20Invoke%20Bot&hosted_button_id=9CWGXCRGWEJR8
-
-Use this micro payment link to send donations of less than $12:  
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&item_name=Neverwinter%20Invoke%20Bot%20-%20Micro%20Payment&hosted_button_id=S6KS5PESGYSUQ

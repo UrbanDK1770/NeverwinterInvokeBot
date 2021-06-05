@@ -1,6 +1,9 @@
 RELEASE NOTES
 =============
 
+11.9
+- updated launcher login
+
 11.8
 - Removed unlock code requirement
 

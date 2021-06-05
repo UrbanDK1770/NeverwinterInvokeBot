@@ -2605,11 +2605,11 @@ Func RunScript(); If $RestartLoop Then Return 0
         EndIf
     EndIf
     If Not $UnattendedMode And @Compiled Then
-        If _DownloadFile("https://github.com/BigRedBot/NeverwinterInvokeBot/raw/master/version.ini", "version.ini", $Title, Localize("RetrievingVersion")) Then
+        If _DownloadFile("http://gitlab.valhalla.local:41000/autoit3/neverwinterinvokebot/raw/master/version.ini", "version.ini", $Title, Localize("RetrievingVersion")) Then
             Local $CurrentVersion = IniRead(@ScriptDir & "\version.ini", "version", "version", "")
             If $CurrentVersion <> "" Then
                 If $CurrentVersion <> $Version And MsgBox($MB_YESNO + $MB_ICONQUESTION + $MB_TOPMOST, $Title, Localize("NewerVersionFound", "<VERSION>", $CurrentVersion), 60) = $IDYES Then
-                    If _DownloadFile("https://github.com/BigRedBot/NeverwinterInvokeBot/raw/master/NeverwinterInvokeBot.exe", "Install.exe", $Title, Localize("DownloadingInstaller")) Then
+                    If _DownloadFile("http://gitlab.valhalla.local:41000/autoit3/neverwinterinvokebot/raw/master/NeverwinterInvokeBot.exe", "Install.exe", $Title, Localize("DownloadingInstaller")) Then
                         ShellExecute(@ScriptDir & "\Install.exe")
                         ExitScript()
                     EndIf
