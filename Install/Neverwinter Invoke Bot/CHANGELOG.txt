@@ -1,6 +1,10 @@
 RELEASE NOTES
 =============
 
+11.9.1
+- Fixed images for invoke
+- Fixed invoke logic
+
 11.9
 - updated launcher login
 
