@@ -835,9 +835,9 @@ While 1
     If $RestartLoop Then Return 0
     If ImageExists("ChangeCharacterButton") Then
         MyMouseMove($_ImageSearchX, $_ImageSearchY)
-        DoubleClick()
+        SingleClick()
     Else
-        For $n = 1 To 3
+        For $n = 1 To 4
             Send("{DOWN}")
             Sleep(GetValue("KeyDelaySeconds") * 1000)
         Next
@@ -856,7 +856,7 @@ While 1
         EndIf
         ExitLoop
     EndIf
-    For $n = 1 To 4
+    For $n = 1 To 3
         Send("{ENTER}")
         Sleep(500)
     Next
